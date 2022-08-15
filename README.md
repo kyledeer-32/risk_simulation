@@ -7,4 +7,7 @@ As a big risk fan, recently was inspired while playing to create a Risk battle s
 1. Probability of winning given [x] number of attackers and [y] number of defenders
 2. Estimate the Attrition from battles
 3. As rolls are executed - when does the probability shift in favor of the defender, so that the attacker should give up their assault
-4. [any other feasible ideas that I come up with in the meantime]
+4. (any other feasible ideas that I come up with in the meantime)
+
+### **Notes:**
+Since the probability for each possible dice roll event in the range of possible events (1 - 6) is equal, I'm using Numpy's **randint** function which uses a uniform probability distribution for RNG.
